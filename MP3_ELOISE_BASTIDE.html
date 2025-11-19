@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours suite Javascript</title>
+</head>
+<body>
+    <h1>Les pourboires</h1>
+    <h2>Votre commande</h2>
+    <div>
+        <label for="prixCommande">Saisir le prix de votre commande :</label>
+        <input type="text" id="prixCommande" required /><br><br>
+        <label for="tauxPourboire">Saisir le pourboire <strong>(jusqu'à 50%) :</strong></label>
+        <input type="text" id="tauxPourboire" /><br>
+        <input type="button" onclick="calculerleprixcommande()" value="Commander">
+    </div>
+    <br><br>
+    <div>
+        <textarea id="afficherPrix" cols="100" rows="5" title="le montant de la commande"></textarea>
+    </div>
+    <br><br>
+    <div>
+        <input type="button" onclick="encoreunefois()" value="Recommencer">
+    </div>
+    <script src="MP3_ELOISE_BASTIDE.js"></script>
+</body>
+</html>
